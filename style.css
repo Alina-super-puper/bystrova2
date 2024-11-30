@@ -1,0 +1,34 @@
+.cotiki {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.kot {
+    display: flex;
+    transform: translate(var(--per));
+    transition: 1.5s;
+}
+.kotenok {
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+    background-color: rgb(132, 132, 255);
+    border-style: double;
+    border-radius: 50px;
+    border: 1px;
+}
+.spi{
+    color: darkblue;
+    font-size: 20px;
+}
+.knopka{
+    background-color: rgb(91, 108, 255);
+    color: rgb(220, 220, 255);
+    
+}
